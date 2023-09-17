@@ -11,7 +11,7 @@ from allure_commons.types import Severity
 @allure.feature("Регистрация пользователя")
 @allure.story("Регистрация с полными данными")
 @allure.link("https://demoqa.com/automation-practice-form", name="Page for testing form")
-def test_success_registration(setup_browser):
+def test_success_registration():
     registration_page = RegistrationPage()
 
     user1 = User(
